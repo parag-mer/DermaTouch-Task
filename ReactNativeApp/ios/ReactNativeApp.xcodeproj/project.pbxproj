@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeApp.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		03FF1CA054BE42C590E60CB6 /* Glancyr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFD8CAB013E1430898C2551C /* Glancyr-Bold.otf */; };
+		80A66FF159AE40CB8E732246 /* Glancyr-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB18E37B71D1487E9BE62380 /* Glancyr-BoldItalic.otf */; };
+		88941328A6F748F7A0A0BCE2 /* Glancyr-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93C973AB6B054506BDFC47B2 /* Glancyr-ExtraLight.otf */; };
+		4AF0C7D70EFF4240ACFB8A99 /* Glancyr-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B514D512BA84898BC674E80 /* Glancyr-ExtraLightItalic.otf */; };
+		9D6770CA3AEE46828E878239 /* Glancyr-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 710378DED0BD43B49F07F622 /* Glancyr-Italic.otf */; };
+		F3E378A0D3B84A1382719019 /* Glancyr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49ED451E691C4AFDB4651BAD /* Glancyr-Light.otf */; };
+		C18CD234F4454915840F6490 /* Glancyr-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B85C3F11447A1A2EBAB73 /* Glancyr-LightItalic.otf */; };
+		A3878078C9D7450ABAC0D0C5 /* Glancyr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1E0FA53B804C62B49900D6 /* Glancyr-Medium.otf */; };
+		D2C7294CE2714A6F85E28FEE /* Glancyr-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04B71D30B4DA4DEA89D81F21 /* Glancyr-MediumItalic.otf */; };
+		CB2BCE50D1F74987A0E63812 /* Glancyr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E6C5AC98F941BE88DA3B53 /* Glancyr-Regular.otf */; };
+		59B05F80E90B4FDFA802D15E /* Glancyr-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E61D088528E4982B0CEC43F /* Glancyr-SemiBold.otf */; };
+		090155E1A40643348716B5EC /* Glancyr-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FAED7EA15944DAA92A2F2C /* Glancyr-SemiBoldItalic.otf */; };
+		8D3828DCF7254FF5A2CED9B3 /* Glancyr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20673163FFBD49B39A5CF376 /* Glancyr-Thin.otf */; };
+		45AF12F8444A4B5C91696ED8 /* Glancyr-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 808EAA5A74BE4262B70F1424 /* Glancyr-ThinItalic.otf */; };
+		1BE1ED6954FE45BEA0E58512 /* Albert Sans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0979A46D08FC41239F87EA29 /* Albert Sans-Black.ttf */; };
+		B86B3BB1EF784E7985700222 /* Albert Sans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B3EF8045FA4FD7B4E88F48 /* Albert Sans-BlackItalic.ttf */; };
+		7CD000F27EAC47E78FDFD59A /* Albert Sans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD80B79474184D3F9150D6A3 /* Albert Sans-Bold.ttf */; };
+		F187BCDC983A4464B95FA850 /* Albert Sans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77D90F97961D4993A68552E2 /* Albert Sans-BoldItalic.ttf */; };
+		7CBDA0C327DC43278CC21B76 /* Albert Sans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE500022DFDC4275B6430D38 /* Albert Sans-ExtraBold.ttf */; };
+		D5A4731C8D0D40B984D40F2B /* Albert Sans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF1F3EA9FD6E4B7C80E2AC55 /* Albert Sans-ExtraBoldItalic.ttf */; };
+		A5F5B8BE8890482CA7E0101B /* Albert Sans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDDF87C251C945CA83C93B03 /* Albert Sans-ExtraLight.ttf */; };
+		6412811653124B7E96023100 /* Albert Sans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB4BE776305943B188EC50CD /* Albert Sans-ExtraLightItalic.ttf */; };
+		BCA5540FB02140B68A5657A7 /* Albert Sans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08255508CFF14EA9A9195A43 /* Albert Sans-Italic.ttf */; };
+		E954E6A867474AA4A823D2D2 /* Albert Sans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E07A6CD7264297B82EBF82 /* Albert Sans-Light.ttf */; };
+		02CD7A270C7C45BBBBD745BD /* Albert Sans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 674AC6117ADC44319BC4107E /* Albert Sans-LightItalic.ttf */; };
+		B4C0DE79CD3C4066808AF14F /* Albert Sans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A53FB1E76BE14065909CD7F5 /* Albert Sans-Medium.ttf */; };
+		DA36E4A8160B45D98D084A31 /* Albert Sans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DD97D340D354C489922E5C2 /* Albert Sans-MediumItalic.ttf */; };
+		6B7EE1C54B4342189EA21671 /* Albert Sans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4604FB2AFFCE418C99233605 /* Albert Sans-Regular.ttf */; };
+		98AE0EE927BC4CBB8A86E4F0 /* Albert Sans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47113BBBB1194B77B5D43F2F /* Albert Sans-SemiBold.ttf */; };
+		4DC72623606C41C6819FFF85 /* Albert Sans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97F341B8871D4FC9A7F12A6D /* Albert Sans-SemiBoldItalic.ttf */; };
+		62872830D6F5496FA2D72E63 /* Albert Sans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDC12BFD7E3247D3BE11D0E4 /* Albert Sans-Thin.ttf */; };
+		EFDB77C30C234AE5B24AEE86 /* Albert Sans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19B33D2043BA49AAB10FC8CD /* Albert Sans-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B07F961A680F5B00A75B9A /* ReactNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ReactNativeApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-ReactNativeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeApp.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ReactNativeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeApp.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ReactNativeApp/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BFD8CAB013E1430898C2551C /* Glancyr-Bold.otf */ = {isa = PBXFileReference; name = "Glancyr-Bold.otf"; path = "../assets/fonts/Glancyr-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB18E37B71D1487E9BE62380 /* Glancyr-BoldItalic.otf */ = {isa = PBXFileReference; name = "Glancyr-BoldItalic.otf"; path = "../assets/fonts/Glancyr-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93C973AB6B054506BDFC47B2 /* Glancyr-ExtraLight.otf */ = {isa = PBXFileReference; name = "Glancyr-ExtraLight.otf"; path = "../assets/fonts/Glancyr-ExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B514D512BA84898BC674E80 /* Glancyr-ExtraLightItalic.otf */ = {isa = PBXFileReference; name = "Glancyr-ExtraLightItalic.otf"; path = "../assets/fonts/Glancyr-ExtraLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		710378DED0BD43B49F07F622 /* Glancyr-Italic.otf */ = {isa = PBXFileReference; name = "Glancyr-Italic.otf"; path = "../assets/fonts/Glancyr-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49ED451E691C4AFDB4651BAD /* Glancyr-Light.otf */ = {isa = PBXFileReference; name = "Glancyr-Light.otf"; path = "../assets/fonts/Glancyr-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F2B85C3F11447A1A2EBAB73 /* Glancyr-LightItalic.otf */ = {isa = PBXFileReference; name = "Glancyr-LightItalic.otf"; path = "../assets/fonts/Glancyr-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F1E0FA53B804C62B49900D6 /* Glancyr-Medium.otf */ = {isa = PBXFileReference; name = "Glancyr-Medium.otf"; path = "../assets/fonts/Glancyr-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04B71D30B4DA4DEA89D81F21 /* Glancyr-MediumItalic.otf */ = {isa = PBXFileReference; name = "Glancyr-MediumItalic.otf"; path = "../assets/fonts/Glancyr-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18E6C5AC98F941BE88DA3B53 /* Glancyr-Regular.otf */ = {isa = PBXFileReference; name = "Glancyr-Regular.otf"; path = "../assets/fonts/Glancyr-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E61D088528E4982B0CEC43F /* Glancyr-SemiBold.otf */ = {isa = PBXFileReference; name = "Glancyr-SemiBold.otf"; path = "../assets/fonts/Glancyr-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2FAED7EA15944DAA92A2F2C /* Glancyr-SemiBoldItalic.otf */ = {isa = PBXFileReference; name = "Glancyr-SemiBoldItalic.otf"; path = "../assets/fonts/Glancyr-SemiBoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20673163FFBD49B39A5CF376 /* Glancyr-Thin.otf */ = {isa = PBXFileReference; name = "Glancyr-Thin.otf"; path = "../assets/fonts/Glancyr-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		808EAA5A74BE4262B70F1424 /* Glancyr-ThinItalic.otf */ = {isa = PBXFileReference; name = "Glancyr-ThinItalic.otf"; path = "../assets/fonts/Glancyr-ThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0979A46D08FC41239F87EA29 /* Albert Sans-Black.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Black.ttf"; path = "../assets/fonts/Albert Sans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26B3EF8045FA4FD7B4E88F48 /* Albert Sans-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-BlackItalic.ttf"; path = "../assets/fonts/Albert Sans-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD80B79474184D3F9150D6A3 /* Albert Sans-Bold.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Bold.ttf"; path = "../assets/fonts/Albert Sans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77D90F97961D4993A68552E2 /* Albert Sans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-BoldItalic.ttf"; path = "../assets/fonts/Albert Sans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE500022DFDC4275B6430D38 /* Albert Sans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Albert Sans-ExtraBold.ttf"; path = "../assets/fonts/Albert Sans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF1F3EA9FD6E4B7C80E2AC55 /* Albert Sans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-ExtraBoldItalic.ttf"; path = "../assets/fonts/Albert Sans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDDF87C251C945CA83C93B03 /* Albert Sans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Albert Sans-ExtraLight.ttf"; path = "../assets/fonts/Albert Sans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB4BE776305943B188EC50CD /* Albert Sans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-ExtraLightItalic.ttf"; path = "../assets/fonts/Albert Sans-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08255508CFF14EA9A9195A43 /* Albert Sans-Italic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Italic.ttf"; path = "../assets/fonts/Albert Sans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84E07A6CD7264297B82EBF82 /* Albert Sans-Light.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Light.ttf"; path = "../assets/fonts/Albert Sans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		674AC6117ADC44319BC4107E /* Albert Sans-LightItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-LightItalic.ttf"; path = "../assets/fonts/Albert Sans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A53FB1E76BE14065909CD7F5 /* Albert Sans-Medium.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Medium.ttf"; path = "../assets/fonts/Albert Sans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DD97D340D354C489922E5C2 /* Albert Sans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-MediumItalic.ttf"; path = "../assets/fonts/Albert Sans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4604FB2AFFCE418C99233605 /* Albert Sans-Regular.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Regular.ttf"; path = "../assets/fonts/Albert Sans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47113BBBB1194B77B5D43F2F /* Albert Sans-SemiBold.ttf */ = {isa = PBXFileReference; name = "Albert Sans-SemiBold.ttf"; path = "../assets/fonts/Albert Sans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97F341B8871D4FC9A7F12A6D /* Albert Sans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-SemiBoldItalic.ttf"; path = "../assets/fonts/Albert Sans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDC12BFD7E3247D3BE11D0E4 /* Albert Sans-Thin.ttf */ = {isa = PBXFileReference; name = "Albert Sans-Thin.ttf"; path = "../assets/fonts/Albert Sans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19B33D2043BA49AAB10FC8CD /* Albert Sans-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Albert Sans-ThinItalic.ttf"; path = "../assets/fonts/Albert Sans-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-ReactNativeApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* ReactNativeApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = ReactNativeApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ReactNativeApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				673FC792AB344457B9A0F65D /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ReactNativeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-ReactNativeApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ReactNativeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		673FC792AB344457B9A0F65D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BFD8CAB013E1430898C2551C /* Glancyr-Bold.otf */,
+				BB18E37B71D1487E9BE62380 /* Glancyr-BoldItalic.otf */,
+				93C973AB6B054506BDFC47B2 /* Glancyr-ExtraLight.otf */,
+				4B514D512BA84898BC674E80 /* Glancyr-ExtraLightItalic.otf */,
+				710378DED0BD43B49F07F622 /* Glancyr-Italic.otf */,
+				49ED451E691C4AFDB4651BAD /* Glancyr-Light.otf */,
+				3F2B85C3F11447A1A2EBAB73 /* Glancyr-LightItalic.otf */,
+				1F1E0FA53B804C62B49900D6 /* Glancyr-Medium.otf */,
+				04B71D30B4DA4DEA89D81F21 /* Glancyr-MediumItalic.otf */,
+				18E6C5AC98F941BE88DA3B53 /* Glancyr-Regular.otf */,
+				1E61D088528E4982B0CEC43F /* Glancyr-SemiBold.otf */,
+				E2FAED7EA15944DAA92A2F2C /* Glancyr-SemiBoldItalic.otf */,
+				20673163FFBD49B39A5CF376 /* Glancyr-Thin.otf */,
+				808EAA5A74BE4262B70F1424 /* Glancyr-ThinItalic.otf */,
+				0979A46D08FC41239F87EA29 /* Albert Sans-Black.ttf */,
+				26B3EF8045FA4FD7B4E88F48 /* Albert Sans-BlackItalic.ttf */,
+				FD80B79474184D3F9150D6A3 /* Albert Sans-Bold.ttf */,
+				77D90F97961D4993A68552E2 /* Albert Sans-BoldItalic.ttf */,
+				DE500022DFDC4275B6430D38 /* Albert Sans-ExtraBold.ttf */,
+				AF1F3EA9FD6E4B7C80E2AC55 /* Albert Sans-ExtraBoldItalic.ttf */,
+				EDDF87C251C945CA83C93B03 /* Albert Sans-ExtraLight.ttf */,
+				BB4BE776305943B188EC50CD /* Albert Sans-ExtraLightItalic.ttf */,
+				08255508CFF14EA9A9195A43 /* Albert Sans-Italic.ttf */,
+				84E07A6CD7264297B82EBF82 /* Albert Sans-Light.ttf */,
+				674AC6117ADC44319BC4107E /* Albert Sans-LightItalic.ttf */,
+				A53FB1E76BE14065909CD7F5 /* Albert Sans-Medium.ttf */,
+				9DD97D340D354C489922E5C2 /* Albert Sans-MediumItalic.ttf */,
+				4604FB2AFFCE418C99233605 /* Albert Sans-Regular.ttf */,
+				47113BBBB1194B77B5D43F2F /* Albert Sans-SemiBold.ttf */,
+				97F341B8871D4FC9A7F12A6D /* Albert Sans-SemiBoldItalic.ttf */,
+				BDC12BFD7E3247D3BE11D0E4 /* Albert Sans-Thin.ttf */,
+				19B33D2043BA49AAB10FC8CD /* Albert Sans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ReactNativeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeApp;
+			productName = ReactNativeApp;
+			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ReactNativeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				03FF1CA054BE42C590E60CB6 /* Glancyr-Bold.otf in Resources */,
+				80A66FF159AE40CB8E732246 /* Glancyr-BoldItalic.otf in Resources */,
+				88941328A6F748F7A0A0BCE2 /* Glancyr-ExtraLight.otf in Resources */,
+				4AF0C7D70EFF4240ACFB8A99 /* Glancyr-ExtraLightItalic.otf in Resources */,
+				9D6770CA3AEE46828E878239 /* Glancyr-Italic.otf in Resources */,
+				F3E378A0D3B84A1382719019 /* Glancyr-Light.otf in Resources */,
+				C18CD234F4454915840F6490 /* Glancyr-LightItalic.otf in Resources */,
+				A3878078C9D7450ABAC0D0C5 /* Glancyr-Medium.otf in Resources */,
+				D2C7294CE2714A6F85E28FEE /* Glancyr-MediumItalic.otf in Resources */,
+				CB2BCE50D1F74987A0E63812 /* Glancyr-Regular.otf in Resources */,
+				59B05F80E90B4FDFA802D15E /* Glancyr-SemiBold.otf in Resources */,
+				090155E1A40643348716B5EC /* Glancyr-SemiBoldItalic.otf in Resources */,
+				8D3828DCF7254FF5A2CED9B3 /* Glancyr-Thin.otf in Resources */,
+				45AF12F8444A4B5C91696ED8 /* Glancyr-ThinItalic.otf in Resources */,
+				1BE1ED6954FE45BEA0E58512 /* Albert Sans-Black.ttf in Resources */,
+				B86B3BB1EF784E7985700222 /* Albert Sans-BlackItalic.ttf in Resources */,
+				7CD000F27EAC47E78FDFD59A /* Albert Sans-Bold.ttf in Resources */,
+				F187BCDC983A4464B95FA850 /* Albert Sans-BoldItalic.ttf in Resources */,
+				7CBDA0C327DC43278CC21B76 /* Albert Sans-ExtraBold.ttf in Resources */,
+				D5A4731C8D0D40B984D40F2B /* Albert Sans-ExtraBoldItalic.ttf in Resources */,
+				A5F5B8BE8890482CA7E0101B /* Albert Sans-ExtraLight.ttf in Resources */,
+				6412811653124B7E96023100 /* Albert Sans-ExtraLightItalic.ttf in Resources */,
+				BCA5540FB02140B68A5657A7 /* Albert Sans-Italic.ttf in Resources */,
+				E954E6A867474AA4A823D2D2 /* Albert Sans-Light.ttf in Resources */,
+				02CD7A270C7C45BBBBD745BD /* Albert Sans-LightItalic.ttf in Resources */,
+				B4C0DE79CD3C4066808AF14F /* Albert Sans-Medium.ttf in Resources */,
+				DA36E4A8160B45D98D084A31 /* Albert Sans-MediumItalic.ttf in Resources */,
+				6B7EE1C54B4342189EA21671 /* Albert Sans-Regular.ttf in Resources */,
+				98AE0EE927BC4CBB8A86E4F0 /* Albert Sans-SemiBold.ttf in Resources */,
+				4DC72623606C41C6819FFF85 /* Albert Sans-SemiBoldItalic.ttf in Resources */,
+				62872830D6F5496FA2D72E63 /* Albert Sans-Thin.ttf in Resources */,
+				EFDB77C30C234AE5B24AEE86 /* Albert Sans-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ReactNativeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ReactNativeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ReactNativeApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ReactNativeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ReactNativeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ReactNativeApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

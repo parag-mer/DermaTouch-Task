@@ -1,0 +1,27 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": "p1",
+      "title": "Vitamin C Face Serum",
+      "description": "Brightening serum for daily use",
+      "price": 599,
+      "category": "skincare"
+    },
+    {
+      "id": "p2",
+      "title": "Sun Protection SPF 50",
+      "description": "Daily sunscreen",
+      "price": 349,
+      "category": "skincare"
+    },
+    {
+      "id": "p3",
+      "title": "Anti-Acne Cleanser",
+      "description": "Gentle foaming cleanser",
+      "price": 249,
+      "category": "cleansing"
+    }
+  ],
+  "orders": []
+}

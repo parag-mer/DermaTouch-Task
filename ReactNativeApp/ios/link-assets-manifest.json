@@ -1,0 +1,133 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Albert Sans-Black.ttf",
+      "sha1": "9dff7a233c1592c70ca8a2356de1f7fd8c9f401e"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-BlackItalic.ttf",
+      "sha1": "e60cbf32009c597d50a76155060198b666bcc6f8"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-Bold.ttf",
+      "sha1": "c2879d03d48355192739c3bd60e38834861c33f9"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-BoldItalic.ttf",
+      "sha1": "dad44827f84af195d2a8b76c855c67abe097b79d"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-ExtraBold.ttf",
+      "sha1": "6d27e3b9e456341b333b7638e6299e777a790fa5"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-ExtraBoldItalic.ttf",
+      "sha1": "f06a9915d429da6ada4d409f5c5809110e3e4cd4"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-ExtraLight.ttf",
+      "sha1": "046aae34860cdba8340c12c1339b3c3de09e0534"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-ExtraLightItalic.ttf",
+      "sha1": "75f2f4d9ec6013063deb3c6aa30eb00f4b72b1be"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-Italic.ttf",
+      "sha1": "1147b167ac774869b1fd709f88c5ba9803cdf847"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-Light.ttf",
+      "sha1": "d60780e9fa36a3dba69192d12031eb700300e762"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-LightItalic.ttf",
+      "sha1": "da36f2ea0038954fd2985e23521b699f6b42be4e"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-Medium.ttf",
+      "sha1": "75b65d09363bf3156f658bf245335c4c115751fb"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-MediumItalic.ttf",
+      "sha1": "0bd438dc4ba90d5fd69306a71a620ecc6300aa63"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-Regular.ttf",
+      "sha1": "17813e4886d2da95f62f25ce40eb94e35856b513"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-SemiBold.ttf",
+      "sha1": "f01e57b3b2848ef566da68540ee3fdd9d817edfb"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-SemiBoldItalic.ttf",
+      "sha1": "15fc86d50218796f5582a1e5dc940602be953e58"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-Thin.ttf",
+      "sha1": "be9f25a0ca65e4cdb306a9808d7051e06d282dac"
+    },
+    {
+      "path": "assets/fonts/Albert Sans-ThinItalic.ttf",
+      "sha1": "a6140d03fd3695199a5028586c51aa1e5fafb5c8"
+    },
+    {
+      "path": "assets/fonts/Glancyr-Bold.otf",
+      "sha1": "d940583abb5d4872e2c17b02753a6a59c42a1f0b"
+    },
+    {
+      "path": "assets/fonts/Glancyr-BoldItalic.otf",
+      "sha1": "33037c7f2939237685301b2d919143c21bf7e40d"
+    },
+    {
+      "path": "assets/fonts/Glancyr-ExtraLight.otf",
+      "sha1": "24e59a1ddb36669cd22a2add434364d6ee8fd5b1"
+    },
+    {
+      "path": "assets/fonts/Glancyr-ExtraLightItalic.otf",
+      "sha1": "9da918e659f2a0d136f5a307bb4119c1a0fea352"
+    },
+    {
+      "path": "assets/fonts/Glancyr-Italic.otf",
+      "sha1": "45119e9b33b1fed9c80431a5182fac9d23576882"
+    },
+    {
+      "path": "assets/fonts/Glancyr-Light.otf",
+      "sha1": "2614bcaea2d9bc3308bc166a7e476748fbedda49"
+    },
+    {
+      "path": "assets/fonts/Glancyr-LightItalic.otf",
+      "sha1": "67476512c84d4998066a649d6ac981a7e4b61970"
+    },
+    {
+      "path": "assets/fonts/Glancyr-Medium.otf",
+      "sha1": "a7a56315269f880b4233d954e9c3746bf7420b65"
+    },
+    {
+      "path": "assets/fonts/Glancyr-MediumItalic.otf",
+      "sha1": "1ea928c5198f6d502567d258dd0687057c5ec398"
+    },
+    {
+      "path": "assets/fonts/Glancyr-Regular.otf",
+      "sha1": "461242a5770a6291c283a36038f0e729772029f4"
+    },
+    {
+      "path": "assets/fonts/Glancyr-SemiBold.otf",
+      "sha1": "3c6ea28371232382094b4b045846409730d14cd9"
+    },
+    {
+      "path": "assets/fonts/Glancyr-SemiBoldItalic.otf",
+      "sha1": "224621b4f47633b2a7eb37bc2cd4780803919cea"
+    },
+    {
+      "path": "assets/fonts/Glancyr-Thin.otf",
+      "sha1": "1e20be1449832b87626bff863af3ceccee67c636"
+    },
+    {
+      "path": "assets/fonts/Glancyr-ThinItalic.otf",
+      "sha1": "0e46ae65fc575e441c82307933bdec6e090949cd"
+    }
+  ]
+}

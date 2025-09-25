@@ -1,0 +1,9 @@
+{
+  "extends": "@react-native/typescript-config",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/services/redux/slices/products/index.tsdx"
+  ],
+  "exclude": ["**/node_modules", "**/Pods"]
+}

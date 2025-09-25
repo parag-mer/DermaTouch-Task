@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>ReactNativeApp</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Glancyr-Bold.otf</string>
+		<string>Glancyr-BoldItalic.otf</string>
+		<string>Glancyr-ExtraLight.otf</string>
+		<string>Glancyr-ExtraLightItalic.otf</string>
+		<string>Glancyr-Italic.otf</string>
+		<string>Glancyr-Light.otf</string>
+		<string>Glancyr-LightItalic.otf</string>
+		<string>Glancyr-Medium.otf</string>
+		<string>Glancyr-MediumItalic.otf</string>
+		<string>Glancyr-Regular.otf</string>
+		<string>Glancyr-SemiBold.otf</string>
+		<string>Glancyr-SemiBoldItalic.otf</string>
+		<string>Glancyr-Thin.otf</string>
+		<string>Glancyr-ThinItalic.otf</string>
+		<string>Albert Sans-Black.ttf</string>
+		<string>Albert Sans-BlackItalic.ttf</string>
+		<string>Albert Sans-Bold.ttf</string>
+		<string>Albert Sans-BoldItalic.ttf</string>
+		<string>Albert Sans-ExtraBold.ttf</string>
+		<string>Albert Sans-ExtraBoldItalic.ttf</string>
+		<string>Albert Sans-ExtraLight.ttf</string>
+		<string>Albert Sans-ExtraLightItalic.ttf</string>
+		<string>Albert Sans-Italic.ttf</string>
+		<string>Albert Sans-Light.ttf</string>
+		<string>Albert Sans-LightItalic.ttf</string>
+		<string>Albert Sans-Medium.ttf</string>
+		<string>Albert Sans-MediumItalic.ttf</string>
+		<string>Albert Sans-Regular.ttf</string>
+		<string>Albert Sans-SemiBold.ttf</string>
+		<string>Albert Sans-SemiBoldItalic.ttf</string>
+		<string>Albert Sans-Thin.ttf</string>
+		<string>Albert Sans-ThinItalic.ttf</string>
+	</array>
+</dict>
+</plist>
